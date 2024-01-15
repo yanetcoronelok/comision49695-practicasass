@@ -1,0 +1,14 @@
+//Orden: 
+//1 - Partials de variables, mixins y funciones
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+//2 - Partials de layouts y base
+
+@import "./base/reset";
+@import "./base/typographies";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/mainindex";
+@import "../node_modules/bootstrap/scss/bootstrap";
+//3 - Partials de componentes
